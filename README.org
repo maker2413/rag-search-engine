@@ -1,0 +1,10 @@
+#+TITLE: RAG Search Engine
+
+This is just a simple RAG (Retrieval Augmented Generation) search engine.
+
+This program was created while following along with the course on [[https://www.boot.dev/u/maker2413][Boot.dev]].
+
+To run the search engine you can do the following:
+#+begin_src shell
+  uv run main.py
+#+end_src
