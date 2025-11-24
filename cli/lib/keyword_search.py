@@ -6,7 +6,7 @@ from collections import Counter, defaultdict
 
 from nltk.stem import PorterStemmer
 
-from search_utils import (
+from .search_utils import (
     BM25_B,
     BM25_K1,
     CACHE_DIR,
