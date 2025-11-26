@@ -12,3 +12,6 @@ wheels/
 # Data
 data/
 cache/
+
+# Env vars
+.env
