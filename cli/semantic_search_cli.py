@@ -114,7 +114,7 @@ def main() -> None:
                 print(f"\n{i}. {res['title']} (score: {res['score']:.4f})")
                 print(f"   {res['document']}...")
         case _:
-            parser.print_help()
+            parser.exit(2, parser.format_help())
 
 
 if __name__ == "__main__":
