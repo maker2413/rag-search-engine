@@ -7,7 +7,7 @@ from google import genai
 load_dotenv()
 api_key = os.getenv("gemini_api_key")
 client = genai.Client(api_key=api_key)
-model = "gemini-2.5-flash"
+model = "gemini-2.0-flash"
 
 
 def spell_correct(query: str) -> str:
